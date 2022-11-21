@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/Users": {
+      "name": "/Users",
+      "lambdaFunction": "usersLamdafunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

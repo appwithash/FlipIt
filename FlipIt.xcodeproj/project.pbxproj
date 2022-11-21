@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07731D98F49F92BC904D4250 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F18E4C455BB63BADFB20A3 /* AmplifyModels.swift */; };
+		6E3752065E7BAECFB4EEE498 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 914D820DF3617B40B95EFF82 /* amplifyconfiguration.json */; };
+		6F47AD776FCD2F6468A3F243 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D772A0FD492290203A7B1 /* Users.swift */; };
+		93099F0820F97FB651BB2075 /* Pods_FlipIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAAD7535E8551C880F5BEEC /* Pods_FlipIt.framework */; };
+		A97A2E88993037D6EE2542F0 /* Users+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B69D23B5355A650230CA208 /* Users+Schema.swift */; };
+		C53146EA26C82B4000D55755 /* BottomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146E926C82B4000D55755 /* BottomTabBarView.swift */; };
+		C53146ED26C82B5800D55755 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146EC26C82B5800D55755 /* Constants.swift */; };
+		C53146F026C82DF800D55755 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146EF26C82DF800D55755 /* HomeScreenView.swift */; };
+		C53E3ED32928C6AB000F3AB5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */; };
+		C53E3ED42928C6AB000F3AB5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */; };
+		C53F18F62928B879001826C6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18F52928B879001826C6 /* SessionManager.swift */; };
+		C53F18F82928BAA4001826C6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18F72928BAA4001826C6 /* SignUpView.swift */; };
+		C53F18FA2928BAF3001826C6 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18F92928BAF3001826C6 /* EmailVerificationView.swift */; };
+		C53F18FD2928C308001826C6 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C53F18FB2928C303001826C6 /* amplifyconfiguration.json */; };
+		C58AD14B26CB6469006F078A /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AD14A26CB6469006F078A /* ReviewModel.swift */; };
+		C58AD15E26CC1334006F078A /* ReviewsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AD15D26CC1334006F078A /* ReviewsScreenView.swift */; };
+		C599B38C26CD6B5C006557D7 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599B38B26CD6B5C006557D7 /* ShareSheetView.swift */; };
+		C599B38F26CD6C13006557D7 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599B38E26CD6C13006557D7 /* ProductModel.swift */; };
+		C599F0B326C801E800DFFF89 /* FlipItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599F0B226C801E800DFFF89 /* FlipItApp.swift */; };
+		C599F0B526C801E800DFFF89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599F0B426C801E800DFFF89 /* ContentView.swift */; };
+		C599F0B726C801F100DFFF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C599F0B626C801F100DFFF89 /* Assets.xcassets */; };
+		C599F0BA26C801F100DFFF89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C599F0B926C801F100DFFF89 /* Preview Assets.xcassets */; };
+		C5A9F0E026C9620300C85BF2 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A9F0DF26C9620300C85BF2 /* ProductCellView.swift */; };
+		C5A9F0E326C964AF00C85BF2 /* ProductDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A9F0E226C964AF00C85BF2 /* ProductDescriptionView.swift */; };
+		C5C36D0326C92D7900ED6F72 /* FollowStoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C36D0226C92D7900ED6F72 /* FollowStoreModel.swift */; };
+		C5CECDE429290A2000CA99EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CECDE329290A2000CA99EC /* Extensions.swift */; };
+		C5CECDE629290A7F00CA99EC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CECDE529290A7F00CA99EC /* LoadingView.swift */; };
+		C5D3E2B4292890AA00F2996E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3E2B3292890AA00F2996E /* LoginView.swift */; };
+		C5DC7B4526CED3120050AD6F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC7B4426CED3120050AD6F /* WebView.swift */; };
+		C5E32298292B900500D7C605 /* GraphQLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E32297292B900500D7C605 /* GraphQLRequest+Extensions.swift */; };
+		E50379AF3B673158E2CBB38F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C22D2CF4AE7C04F61FF36A6 /* awsconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F18E4C455BB63BADFB20A3 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		26C45666C61C9CAAB843F926 /* Pods-FlipIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipIt.debug.xcconfig"; path = "Target Support Files/Pods-FlipIt/Pods-FlipIt.debug.xcconfig"; sourceTree = "<group>"; };
+		3B69D23B5355A650230CA208 /* Users+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Users+Schema.swift"; path = "amplify/generated/models/Users+Schema.swift"; sourceTree = "<group>"; };
+		3C22D2CF4AE7C04F61FF36A6 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		4D3D772A0FD492290203A7B1 /* Users.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Users.swift; path = amplify/generated/models/Users.swift; sourceTree = "<group>"; };
+		5EAAD7535E8551C880F5BEEC /* Pods_FlipIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		914D820DF3617B40B95EFF82 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		9E70F00B0B88E12DF612022C /* Pods-FlipIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipIt.release.xcconfig"; path = "Target Support Files/Pods-FlipIt/Pods-FlipIt.release.xcconfig"; sourceTree = "<group>"; };
+		C53146E926C82B4000D55755 /* BottomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarView.swift; sourceTree = "<group>"; };
+		C53146EC26C82B5800D55755 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C53146EF26C82DF800D55755 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		C53F18F52928B879001826C6 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		C53F18F72928BAA4001826C6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C53F18F92928BAF3001826C6 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
+		C53F18FB2928C303001826C6 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		C58AD14A26CB6469006F078A /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		C58AD15D26CC1334006F078A /* ReviewsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsScreenView.swift; sourceTree = "<group>"; };
+		C599B38B26CD6B5C006557D7 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		C599B38E26CD6C13006557D7 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		C599F0AF26C801E800DFFF89 /* FlipIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C599F0B226C801E800DFFF89 /* FlipItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipItApp.swift; sourceTree = "<group>"; };
+		C599F0B426C801E800DFFF89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C599F0B626C801F100DFFF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C599F0B926C801F100DFFF89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C599F0BB26C801F100DFFF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A9F0DF26C9620300C85BF2 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		C5A9F0E226C964AF00C85BF2 /* ProductDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDescriptionView.swift; sourceTree = "<group>"; };
+		C5C36D0226C92D7900ED6F72 /* FollowStoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowStoreModel.swift; sourceTree = "<group>"; };
+		C5CECDE329290A2000CA99EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5CECDE529290A7F00CA99EC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C5D3E2B3292890AA00F2996E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C5DC7B4426CED3120050AD6F /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C5E32297292B900500D7C605 /* GraphQLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GraphQLRequest+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C599F0AC26C801E800DFFF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93099F0820F97FB651BB2075 /* Pods_FlipIt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7553769AA062F3865AE9BE /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				00F18E4C455BB63BADFB20A3 /* AmplifyModels.swift */,
+				3B69D23B5355A650230CA208 /* Users+Schema.swift */,
+				4D3D772A0FD492290203A7B1 /* Users.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		2A03DF92C7FE95305085421F /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				3C22D2CF4AE7C04F61FF36A6 /* awsconfiguration.json */,
+				914D820DF3617B40B95EFF82 /* amplifyconfiguration.json */,
+				C53F18FB2928C303001826C6 /* amplifyconfiguration.json */,
+				C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		314E030F5B4AF19F66120BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C45666C61C9CAAB843F926 /* Pods-FlipIt.debug.xcconfig */,
+				9E70F00B0B88E12DF612022C /* Pods-FlipIt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E3B911BA1168BE0C5C66680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EAAD7535E8551C880F5BEEC /* Pods_FlipIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C58AD14626CB6368006F078A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C53146EC26C82B5800D55755 /* Constants.swift */,
+				C5C36D0226C92D7900ED6F72 /* FollowStoreModel.swift */,
+				C58AD14A26CB6469006F078A /* ReviewModel.swift */,
+				C599B38E26CD6C13006557D7 /* ProductModel.swift */,
+				C5E32297292B900500D7C605 /* GraphQLRequest+Extensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C58AD14826CB637E006F078A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C599F0B426C801E800DFFF89 /* ContentView.swift */,
+				C53F18F52928B879001826C6 /* SessionManager.swift */,
+				C5D3E2B3292890AA00F2996E /* LoginView.swift */,
+				C53F18F72928BAA4001826C6 /* SignUpView.swift */,
+				C53F18F92928BAF3001826C6 /* EmailVerificationView.swift */,
+				C53146E926C82B4000D55755 /* BottomTabBarView.swift */,
+				C5A9F0E226C964AF00C85BF2 /* ProductDescriptionView.swift */,
+				C5DC7B4426CED3120050AD6F /* WebView.swift */,
+				C58AD15D26CC1334006F078A /* ReviewsScreenView.swift */,
+				C5A9F0DF26C9620300C85BF2 /* ProductCellView.swift */,
+				C53146EF26C82DF800D55755 /* HomeScreenView.swift */,
+				C599B38B26CD6B5C006557D7 /* ShareSheetView.swift */,
+				C5CECDE529290A7F00CA99EC /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C599F0A626C801E800DFFF89 = {
+			isa = PBXGroup;
+			children = (
+				C599F0B126C801E800DFFF89 /* FlipIt */,
+				C599F0B026C801E800DFFF89 /* Products */,
+				314E030F5B4AF19F66120BD9 /* Pods */,
+				4E3B911BA1168BE0C5C66680 /* Frameworks */,
+				2A03DF92C7FE95305085421F /* AmplifyConfig */,
+				0F7553769AA062F3865AE9BE /* AmplifyModels */,
+			);
+			sourceTree = "<group>";
+		};
+		C599F0B026C801E800DFFF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C599F0AF26C801E800DFFF89 /* FlipIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C599F0B126C801E800DFFF89 /* FlipIt */ = {
+			isa = PBXGroup;
+			children = (
+				C599F0B226C801E800DFFF89 /* FlipItApp.swift */,
+				C5CECDE329290A2000CA99EC /* Extensions.swift */,
+				C58AD14626CB6368006F078A /* Models */,
+				C58AD14826CB637E006F078A /* Views */,
+				C599F0B626C801F100DFFF89 /* Assets.xcassets */,
+				C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */,
+				C599F0BB26C801F100DFFF89 /* Info.plist */,
+				C599F0B826C801F100DFFF89 /* Preview Content */,
+			);
+			path = FlipIt;
+			sourceTree = "<group>";
+		};
+		C599F0B826C801F100DFFF89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C599F0B926C801F100DFFF89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C599F0AE26C801E800DFFF89 /* FlipIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C599F0BE26C801F100DFFF89 /* Build configuration list for PBXNativeTarget "FlipIt" */;
+			buildPhases = (
+				0429A6EE5A15EA9359259633 /* [CP] Check Pods Manifest.lock */,
+				C599F0AB26C801E800DFFF89 /* Sources */,
+				C599F0AC26C801E800DFFF89 /* Frameworks */,
+				C599F0AD26C801E800DFFF89 /* Resources */,
+				E33867FAFAB2D5E0D2595136 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipIt;
+			productName = EcommerceApp;
+			productReference = C599F0AF26C801E800DFFF89 /* FlipIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C599F0A726C801E800DFFF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C599F0AE26C801E800DFFF89 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C599F0AA26C801E800DFFF89 /* Build configuration list for PBXProject "FlipIt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C599F0A626C801E800DFFF89;
+			productRefGroup = C599F0B026C801E800DFFF89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C599F0AE26C801E800DFFF89 /* FlipIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C599F0AD26C801E800DFFF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C599F0BA26C801F100DFFF89 /* Preview Assets.xcassets in Resources */,
+				C53E3ED42928C6AB000F3AB5 /* awsconfiguration.json in Resources */,
+				C53E3ED32928C6AB000F3AB5 /* amplifyconfiguration.json in Resources */,
+				C599F0B726C801F100DFFF89 /* Assets.xcassets in Resources */,
+				C53F18FD2928C308001826C6 /* amplifyconfiguration.json in Resources */,
+				E50379AF3B673158E2CBB38F /* awsconfiguration.json in Resources */,
+				6E3752065E7BAECFB4EEE498 /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0429A6EE5A15EA9359259633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33867FAFAB2D5E0D2595136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipIt/Pods-FlipIt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipIt/Pods-FlipIt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlipIt/Pods-FlipIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C599F0AB26C801E800DFFF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A9F0E026C9620300C85BF2 /* ProductCellView.swift in Sources */,
+				C5CECDE429290A2000CA99EC /* Extensions.swift in Sources */,
+				C53146EA26C82B4000D55755 /* BottomTabBarView.swift in Sources */,
+				C5DC7B4526CED3120050AD6F /* WebView.swift in Sources */,
+				C5E32298292B900500D7C605 /* GraphQLRequest+Extensions.swift in Sources */,
+				C599F0B526C801E800DFFF89 /* ContentView.swift in Sources */,
+				C58AD15E26CC1334006F078A /* ReviewsScreenView.swift in Sources */,
+				C53146F026C82DF800D55755 /* HomeScreenView.swift in Sources */,
+				C5C36D0326C92D7900ED6F72 /* FollowStoreModel.swift in Sources */,
+				C58AD14B26CB6469006F078A /* ReviewModel.swift in Sources */,
+				C599F0B326C801E800DFFF89 /* FlipItApp.swift in Sources */,
+				C599B38F26CD6C13006557D7 /* ProductModel.swift in Sources */,
+				C5D3E2B4292890AA00F2996E /* LoginView.swift in Sources */,
+				C53F18F82928BAA4001826C6 /* SignUpView.swift in Sources */,
+				C53146ED26C82B5800D55755 /* Constants.swift in Sources */,
+				C53F18FA2928BAF3001826C6 /* EmailVerificationView.swift in Sources */,
+				C599B38C26CD6B5C006557D7 /* ShareSheetView.swift in Sources */,
+				C53F18F62928B879001826C6 /* SessionManager.swift in Sources */,
+				C5CECDE629290A7F00CA99EC /* LoadingView.swift in Sources */,
+				C5A9F0E326C964AF00C85BF2 /* ProductDescriptionView.swift in Sources */,
+				07731D98F49F92BC904D4250 /* AmplifyModels.swift in Sources */,
+				A97A2E88993037D6EE2542F0 /* Users+Schema.swift in Sources */,
+				6F47AD776FCD2F6468A3F243 /* Users.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C599F0BC26C801F100DFFF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C599F0BD26C801F100DFFF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C599F0BF26C801F100DFFF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C45666C61C9CAAB843F926 /* Pods-FlipIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 85U89NW229;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlipIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appwithash.FlipIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C599F0C026C801F100DFFF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E70F00B0B88E12DF612022C /* Pods-FlipIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 85U89NW229;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlipIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appwithash.FlipIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C599F0AA26C801E800DFFF89 /* Build configuration list for PBXProject "FlipIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C599F0BC26C801F100DFFF89 /* Debug */,
+				C599F0BD26C801F100DFFF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C599F0BE26C801F100DFFF89 /* Build configuration list for PBXNativeTarget "FlipIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C599F0BF26C801F100DFFF89 /* Debug */,
+				C599F0C026C801F100DFFF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C599F0A726C801E800DFFF89 /* Project object */;
+}

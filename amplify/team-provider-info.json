@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flipit-dev-133120-authRole",
+      "UnauthRoleArn": "arn:aws:iam::088639165731:role/amplify-flipit-dev-133120-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::088639165731:role/amplify-flipit-dev-133120-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-flipit-dev-133120-deployment",
+      "UnauthRoleName": "amplify-flipit-dev-133120-unauthRole",
+      "StackName": "amplify-flipit-dev-133120",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:088639165731:stack/amplify-flipit-dev-133120/5da87610-67e0-11ed-ba01-0aa02ca48b4f",
+      "AmplifyAppId": "d21alpkwt4b6yv",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-flipit-dev-133120-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "flipit57159950": {}
+      },
+      "storage": {
+        "s3d6f0a568": {}
+      },
+      "function": {
+        "S3Trigger585c4647": {
+          "deploymentBucketName": "amplify-flipit-dev-133120-deployment",
+          "s3Key": "amplify-builds/S3Trigger585c4647-49683762464a72317131-build.zip"
+        },
+        "usersLamdafunction": {
+          "deploymentBucketName": "amplify-flipit-dev-133120-deployment",
+          "s3Key": "amplify-builds/usersLamdafunction-675246703630456a3878-build.zip"
+        }
+      },
+      "api": {
+        "api9705ffc5": {},
+        "FlipIt": {}
+      }
+    }
+  }
+}
