@@ -20,7 +20,7 @@ final class SessionManager : ObservableObject{
     @Published var showHomeView = false
     @Published var tokens : Set<AnyCancellable> = []
     @AppStorage("user_id") var userId = ""
-    @Published var currentUser : Users = Users(id: UUID().uuidString, username: "", email: "", phoneNumber: "", address: "")
+    @Published var currentUser : Users = Users(id:UUID().uuidString,username: "", email: "", phoneNumber: "", address: "", firstName: "", lastName: "", pincode: "")
     func getCurrentAuthUser(){
        
         if let user = Amplify.Auth.getCurrentUser(){
@@ -147,8 +147,8 @@ final class SessionManager : ObservableObject{
     }
     
     func dataStore(){
-        let user = Users(id: UUID().uuidString, username: "ashutosh", email: "ashutoshpandey731093@gmail.com", phoneNumber: "7310939209", address: "old ITI")
-        Amplify.DataStore.save(user)
+       
+        Amplify.DataStore.save(self.currentUser)
             .receive(on: DispatchQueue.main)
             .sink { completion in
                 if case .failure(let err) = completion{
@@ -162,11 +162,11 @@ final class SessionManager : ObservableObject{
     
     func updateUser() -> AnyCancellable {
         // Retrieve your Todo using Amplify.API.query
-        var user = Users(id: "32249E9E-7043-42FB-94CF-148666918496", username: "ashutoshpandey", email: "ashutoshpandey731093@gmail.com", phoneNumber: "+917310939209", address: "old ITI")
-        user.username = "ashutodhpandey"
-        let todoUpdated = user
+        
+       
+        
 //        let updateRequest = GraphQLRequest<Users>.updateUser(with: todoUpdated, version: 8)
-        return Amplify.API.mutate(request: .updateMutation(of: todoUpdated,version: 10))
+        return Amplify.API.mutate(request: .updateMutation(of: self.currentUser,version: 10))
         .resultPublisher
         .receive(on: DispatchQueue.main)
         .sink {
@@ -206,10 +206,9 @@ final class SessionManager : ObservableObject{
     
     func deleteUser() -> AnyCancellable {
         // Retrieve your Todo using Amplify.API.query
-        var user = Users(id: "32249E9E-7043-42FB-94CF-148666918496", username: "ashutoshpandey", email: "ashutoshpandey731093@gmail.com", phoneNumber: "+917310939209", address: "old ITI")
-        
+       
 
-        return Amplify.API.mutate(request: .deleteMutation(of: user, modelSchema: Users.schema,version: 10))
+        return Amplify.API.mutate(request: .deleteMutation(of: self.currentUser, modelSchema: Users.schema,version: 10))
         .resultPublisher
         .receive(on: DispatchQueue.main)
         .sink {

@@ -4,7 +4,8 @@ type Users @model @auth(rules: [{allow: public}]) {
   email: AWSEmail!
   phoneNumber: AWSPhone!
   address: String!
-  firstName: String
-  lastName: String
+  firstName: String!
+  lastName: String!
+  pincode: String!
 }
  

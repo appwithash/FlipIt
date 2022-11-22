@@ -12,6 +12,7 @@ extension Users {
     case address
     case firstName
     case lastName
+    case pincode
     case createdAt
     case updatedAt
   }
@@ -38,8 +39,9 @@ extension Users {
       .field(users.email, is: .required, ofType: .string),
       .field(users.phoneNumber, is: .required, ofType: .string),
       .field(users.address, is: .required, ofType: .string),
-      .field(users.firstName, is: .optional, ofType: .string),
-      .field(users.lastName, is: .optional, ofType: .string),
+      .field(users.firstName, is: .required, ofType: .string),
+      .field(users.lastName, is: .required, ofType: .string),
+      .field(users.pincode, is: .required, ofType: .string),
       .field(users.createdAt, is: .optional, isReadOnly: true, ofType: .dateTime),
       .field(users.updatedAt, is: .optional, isReadOnly: true, ofType: .dateTime)
     )

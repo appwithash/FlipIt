@@ -8,8 +8,9 @@ public struct Users: Model {
   public var email: String
   public var phoneNumber: String
   public var address: String
-  public var firstName: String?
-  public var lastName: String?
+  public var firstName: String
+  public var lastName: String
+  public var pincode: String
   public var createdAt: Temporal.DateTime?
   public var updatedAt: Temporal.DateTime?
   
@@ -18,8 +19,9 @@ public struct Users: Model {
       email: String,
       phoneNumber: String,
       address: String,
-      firstName: String? = nil,
-      lastName: String? = nil) {
+      firstName: String,
+      lastName: String,
+      pincode: String) {
     self.init(id: id,
       username: username,
       email: email,
@@ -27,6 +29,7 @@ public struct Users: Model {
       address: address,
       firstName: firstName,
       lastName: lastName,
+      pincode: pincode,
       createdAt: nil,
       updatedAt: nil)
   }
@@ -35,8 +38,9 @@ public struct Users: Model {
       email: String,
       phoneNumber: String,
       address: String,
-      firstName: String? = nil,
-      lastName: String? = nil,
+      firstName: String,
+      lastName: String,
+      pincode: String,
       createdAt: Temporal.DateTime? = nil,
       updatedAt: Temporal.DateTime? = nil) {
       self.id = id
@@ -46,6 +50,7 @@ public struct Users: Model {
       self.address = address
       self.firstName = firstName
       self.lastName = lastName
+      self.pincode = pincode
       self.createdAt = createdAt
       self.updatedAt = updatedAt
   }

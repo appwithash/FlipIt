@@ -15,6 +15,7 @@
 		C53146EA26C82B4000D55755 /* BottomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146E926C82B4000D55755 /* BottomTabBarView.swift */; };
 		C53146ED26C82B5800D55755 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146EC26C82B5800D55755 /* Constants.swift */; };
 		C53146F026C82DF800D55755 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53146EF26C82DF800D55755 /* HomeScreenView.swift */; };
+		C532CB05292BE764002772AF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532CB04292BE764002772AF /* ProfileView.swift */; };
 		C53E3ED32928C6AB000F3AB5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */; };
 		C53E3ED42928C6AB000F3AB5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */; };
 		C53F18F62928B879001826C6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18F52928B879001826C6 /* SessionManager.swift */; };
@@ -52,6 +53,7 @@
 		C53146E926C82B4000D55755 /* BottomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarView.swift; sourceTree = "<group>"; };
 		C53146EC26C82B5800D55755 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C53146EF26C82DF800D55755 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		C532CB04292BE764002772AF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		C53F18F52928B879001826C6 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				914D820DF3617B40B95EFF82 /* amplifyconfiguration.json */,
 				C53F18FB2928C303001826C6 /* amplifyconfiguration.json */,
 				C53E3ED22928C6AB000F3AB5 /* awsconfiguration.json */,
+				C53E3ED12928C6AB000F3AB5 /* amplifyconfiguration.json */,
 			);
 			name = AmplifyConfig;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				C53146EF26C82DF800D55755 /* HomeScreenView.swift */,
 				C599B38B26CD6B5C006557D7 /* ShareSheetView.swift */,
 				C5CECDE529290A7F00CA99EC /* LoadingView.swift */,
+				C532CB04292BE764002772AF /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +345,7 @@
 				C53F18F82928BAA4001826C6 /* SignUpView.swift in Sources */,
 				C53146ED26C82B5800D55755 /* Constants.swift in Sources */,
 				C53F18FA2928BAF3001826C6 /* EmailVerificationView.swift in Sources */,
+				C532CB05292BE764002772AF /* ProfileView.swift in Sources */,
 				C599B38C26CD6B5C006557D7 /* ShareSheetView.swift in Sources */,
 				C53F18F62928B879001826C6 /* SessionManager.swift in Sources */,
 				C5CECDE629290A7F00CA99EC /* LoadingView.swift in Sources */,
@@ -477,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FlipIt/Preview Content\"";
 				DEVELOPMENT_TEAM = 85U89NW229;
 				ENABLE_PREVIEWS = YES;
@@ -486,6 +492,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appwithash.FlipIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -500,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FlipIt/Preview Content\"";
 				DEVELOPMENT_TEAM = 85U89NW229;
 				ENABLE_PREVIEWS = YES;
@@ -509,6 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appwithash.FlipIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

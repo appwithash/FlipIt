@@ -59,7 +59,7 @@ struct SignUpView: View {
                     RoundedRectangle(cornerRadius: Screen.maxWidth*0.02)
                         .foregroundColor(.white)
                     HStack{
-                        if self.sessionManager.showPassword{
+                        if self.sessionManager.showConfirmPassword{
                             TextField("Confirm Password",text: $sessionManager.confirmPassword)
                                 .font(.custom("Verdana", size: 14))
                         }else{

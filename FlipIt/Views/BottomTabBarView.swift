@@ -83,7 +83,7 @@ struct BottomBar : View{
                     .foregroundColor(self.selectedTab==5 ? .black : .gray)
                     .onTapGesture {
                         self.selectedTab=5
-                       // self.sessionManager.signout()
+                        self.sessionManager.signout()
                     }
                 Spacer()
             }
